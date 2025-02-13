@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  /* background-color: #bfd9d9; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+  /* overflow: hidden; */
+}
+.subContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.subContainer .status {
+  height: 50px;
+  width: 50px;
+  object-position: center;
+  border-radius: 100%;
+  border: 1.5px solid rgb(255, 0, 81);
+}
+.subContainer .statusCard {
+  margin-left: 10px;
+}
+.statusCard :nth-child(1) {
+  font-size: 15px;
+  font-weight: 600;
+}
+.statusCard :nth-child(2) {
+  font-size: 15px;
+  color: rgb(101, 106, 106);
+  padding-left: 5px;
+  font-weight: 500;
+}
+.statusCard a {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 20px;
+  color: rgb(8, 139, 239);
+  text-decoration: none;
+}
+.statusCard p {
+  font-size: 13px;
+  color: rgb(101, 106, 106);
+  font-weight: lighter;
+  margin-top: 5px;/
+}
+
+.container img {
+  /* background-size: cover; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  object-position: center;
+  border-radius: 5px;
+}
+.container #love {
+  color: #fff;
+  font-size: 75px;
+  position: absolute;
+  top: 65%;
+  left: 52%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: all ease 0.3s;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+.iconContainer div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.iconContainer div span{
+  font-size: 20px;
+  font-weight: normal;
+  padding-right: 10px;
+  &:hover {
+    color: #f40c55;
+    cursor: pointer;
+  }
+}
+.iconContainer div span{
+  font-size: 20px;
+  font-weight: normal;
+  padding-right: 10px;
+  &:hover {
+    color: #f40c55;
+    cursor: pointer;
+  }
+}
+.iconContainer div span{
+  font-size: 20px;
+  font-weight: normal;
+  padding-right: 10px;
+  &:hover {
+    color: #f40c55;
+    cursor: pointer;
+  }
+}
+.iconContainer div i{
+  font-size: 20px;
+  font-weight: normal;
+  padding-right: 5px;
+  &:hover {
+    color: #f40c55;
+    cursor: pointer;
+  }
+}
+.iconContainer #bookmark {
+  font-size: 20px;
+  padding-right: 13px;
+  font-weight: bold;
+  &:hover {
+    color: #f40c55;
+    cursor: pointer;
+  }
+}
+
+.likeCard {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#changeIconDark{
+  font-size: 20px;
+  color: #f40c55;
+}
+.likes {
+  font-size: 15px;
+  font-weight: bold;
+}
+.likeCard p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.borderLine {
+  height: 0.7px;
+  width: 100%;
+  background: #1e1d1d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mainIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.mainIcon i {
+  font-size: 20px;
+  margin-bottom: 10px;
+  transition: icon 5s ease-in-out;
+}
+.mainIcon i:hover {
+  color: #f40c55;
+  cursor: pointer;
+}
+.discription {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(80, 82, 84);
+  padding: 8px 0;
+}
+.mainIcon i:hover{
+  color: #0afad2;
+  transition: 1s;
+  transform: rotateY(360deg);
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: #0f0f0f; */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hover-underline {
+  font-size: 1rem;
+  /* color: #ffffff; */
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff0000, #00ffff);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
